@@ -24,7 +24,10 @@
 				padding-top: 50px;
 				padding-bottom: 50px;
 			}
-						
+			.jumbotron {
+				margin: 5px 2px;
+			}
+
 			/* Color Schemes */
 			.bg-white {
 				background-color: #ffffff;
@@ -32,6 +35,10 @@
 			}
 			.bg-blackgray {
 				background-color: #2f2f2f;
+				color: #fff;
+			}
+			.bg-coffee {
+				background-image: url("coffee.jpg");
 				color: #fff;
 			}
 
@@ -88,11 +95,34 @@
   			</div>
 		</nav>
 
-		<div class="jumbotron text-center">
+		<div class="container-fluid bg-white text-center">
 			<h1>Daniel Doyle</h1>
-			<img src="daddy.jpg" class="img-circle" alt="Zaddy">
+			<img src="daddy.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Zaddy">
 			<p>Welcome to my website</p>
 		</div>
+
+		<div class="container-fluid bg-coffee text-center">
+			<h3 class="margin">What Am I?</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+		</div>
+
+		<div class="container-fluid bg-3 text-center">    
+			<h3 class="margin">Where To Find Me?</h3><br>
+			<div class="row">
+			  <div class="col-sm-4">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<img src="animu.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+			  </div>
+			  <div class="col-sm-4"> 
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<img src="karate.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+			  </div>
+			  <div class="col-sm-4"> 
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<img src="code.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+			  </div>
+			</div>
+		  </div>
 	</body>
 
 
