@@ -1,0 +1,81 @@
+body {
+    font: 12px "Montserrat", sans-serif;
+    line-height: 1.8;
+    color: #2f2f2f;
+}			
+
+p {font-size: 16px;}
+
+/* Containers */
+.container-fluid {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.jumbotron {
+    margin: 5px 2px;
+}
+
+/* Color Schemes */
+.bg-white {
+    background-color: #ffffff;
+    color: #555555;
+}
+.bg-blackgray {
+    background-color: #2f2f2f;
+    color: #fff;
+}
+.bg-coffee {
+    background-image: url("resources/images/coffee.jpg");
+    color: #fff;
+}
+
+/* Image Style */
+.blur {
+    width: 150%;
+    height: 150%;
+    margin: -25% 0 0 -25%;
+}
+.blur img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    transition: all .25s ease;
+}
+.blur img:hover {
+    -webkit-filter: blur(15px);
+    -moz-filter: all .25s ease;
+    -o-filter: all .25s ease;
+    -ms-filter: all .25s ease;
+    filter: blur(15px);
+}
+
+/* Icon Style */
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 5px 2px;
+    border-radius: 50%;
+    line-height: 20px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-github {
+    background: #000000;
+    color: white;
+}
+.fa-envelope {
+    background: #228b22;
+    color: white;
+}
