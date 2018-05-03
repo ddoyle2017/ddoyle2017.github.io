@@ -25,7 +25,7 @@ p {font-size: 16px;}
     color: #fff;
 }
 .bg-coffee {
-    background-image: url("resources/images/coffee.jpg");
+    background-image: url("resources/images/coffee.jpg"); /* this CSS rule is broken */
     color: #fff;
 }
 
