@@ -4,6 +4,11 @@ body {
     color: #2f2f2f;
 }			
 
+h1 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
 p {
     font-size: 16px;
     margin-top: 30px;
@@ -16,6 +21,8 @@ p {
 .container-fluid {
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 .jumbotron {
     margin: 5px 2px;
