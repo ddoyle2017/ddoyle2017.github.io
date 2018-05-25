@@ -2,7 +2,7 @@
 // Adds a smooth scroll animation to hyperlink reference clicks on the webpage, using jQuery.
 // REFERENCE: https://css-tricks.com/snippets/jquery/smooth-scrolling/
 //
-$('a[href*="#"]').not('[href="#"]').not('[href="#0"]').click(function(event) {
+$('a[href*="#"]').not('[href="#"]').not('[href="#0"]').not('[href="#projects-carousel"]').click(function(event) {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
         var target = $(this.hash);
         target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');

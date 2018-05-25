@@ -33,10 +33,17 @@ p {
 }
 .my-jumbotron {
     background-image: url("../images/nathan-dumlao-296548-unsplash.jpg");
-    background-size: cover;
+    background-size: cover; /* this is causing lag issues with scrolling because of the sheer size of the image */
     height: 100vh;
     margin: 0px 0px;
     color:#ffffff;
+}
+
+/* Carousel */
+.carousel-inner > .item > img {
+    height : 80vh;
+    width : 100%;
+    text-align: center;
 }
 
 /* Color Schemes */

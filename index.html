@@ -88,25 +88,30 @@
 		</div>
 
 		<!-- Overview section for projects -->
-		<div id="projects" class="container-fluid bg-3 text-center">    
+		<div id="projects" class="container-fluid text-center">
 			<h2 class="margin">Projects</h2>
-			<div class="row">
-
-				<div class="col-sm-4">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					<img src="resources/images/animu.jpg" class="img-fluid" style="width:100%" alt="Image">
+			<div id="projects-carousel" class="carousel slide" data-ride="carousel" style="margin-top: 50px">
+				<!-- Carousel item indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="projects-carousel" data-slide-to="0" class="active"></li>
+					<li data-target="projects-carousel" data-slide-to="1"></li>
+					<li data-target="projects-carousel" data-slide-to="2"></li>					
+				</ol>
+				<!-- Carousel items -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img class="d-block img-fluid" src="./resources/images/temple.jpg" alt="AvocadoBot">
+					</div>
+					<div class="item">
+						<img class="d-block img-fluid" src="./resources/images/stairs.jpg" alt="Co-Op Swift">
+					</div>
+					<div class="item">
+						<img class="d-block img-fluid" src="./resources/images/tree.jpg" alt="ARChess">
+					</div>
 				</div>
-
-			  	<div class="col-sm-4"> 
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					<img src="resources/images/karate.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-				</div>
-
-			  	<div class="col-sm-4"> 
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					<img src="resources/images/code.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-				</div>
-
+				<!-- Carousel navigation -->
+				<a class="left carousel-control" data-slide="prev" href="#projects-carousel"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#projects-carousel"><span class="icon-next"></span></a>
 			</div>
 		</div>
 			
