@@ -1,5 +1,5 @@
 //
-// Adds a smooth scroll animation to hyperlink reference clicks on the webpage, using jQuery
+// Adds a smooth scroll animation to hyperlink reference clicks on the webpage, using jQuery.
 // REFERENCE: https://css-tricks.com/snippets/jquery/smooth-scrolling/
 //
 $('a[href*="#"]').not('[href="#"]').not('[href="#0"]').click(function(event) {
