@@ -11,7 +11,7 @@
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway'>
 		<link rel="stylesheet" href="./resources/css/default.css">
 	</head>
 
@@ -46,84 +46,66 @@
 		</div> 
 
 		<!-- About Me section -->
-		<div id="about-me" class="container-fluid bg-white text-center">
-			<h2 class="margin">Who Am I?</h2>
-			<div class="row">
-				<div class="col-sm-6" style="margin-top: 50px">
-					<img src="resources/images/KPiB.jpg" class="img-responsive" style="display:inline" alt="Test">
-				</div>
-				<div class="col-sm-6" style="margin-top: 100px">
-					<h3 class="margin">About Me</h3>
-					<p>
-						Mechanical engineering student turned software developer. As both an avid consumer and developer of software, I have a keen eye for software quality in 
-						both usage and design.
-						Having worked on projects ranging from designing robots, to application development, to desktop deployments, I have a wealth of experience in programming,
-						working in both Agile &amp; Waterfall environments, as well as quality assurance. Always eager to learn, I'm ready to empty my cup and make an impact at the 
-						workplace, while improving each step of the way.
-					</p>
-				</div>
+		<div class="content-container bg-white">
+			<div id="about-me" class="text-left">
+				<h2 class="margin">Who Am I?</h2>
+				<p>
+					Mechanical engineering student turned software developer. As both an avid consumer and developer of software, I have a keen eye for software quality in 
+					both usage and design.<br /><br />
+					Having worked on projects ranging from designing robots, to application development, to desktop deployments, I have a wealth of experience in programming,
+					working in both Agile &amp; Waterfall environments, as well as quality assurance. Always eager to learn, I'm ready to empty my cup and make an impact at the 
+					workplace, while improving each step of the way.
+				</p>
+				<img src="resources/images/KPiB.jpg" class="img-responsive" style="display:inline" alt="Test">
+				<h2 class="margin">Community Involvement</h2>
+				<p>
+					Throughout my college career, I've been active in a number of organizations.
+				</p>
+				<img src="resources/images/Strolling.jpg" class="img-responsive" style="display:inline" alt="Test">
+				<h2 class="margin">Passions</h2>			
+				<p>
+					My life long passion is martial arts.
+				</p>
 			</div>
-			<div id="community-involvement" class="row">
-				<div class="col-sm-6" style="margin-top: 100px">
-					<h3 class="margin">Community Involvement</h3>
-					<p>
-						Throughout my college career, I've been active in a number of organizations.
-					</p>
-				</div>
-				<div class="col-sm-6" style="margin-top: 100px">
-					<img src="resources/images/Strolling.jpg" class="img-responsive" style="display:inline" alt="Test">
-				</div>
-			</div>
-			<div id="passions" class="row">
-				<div class="col-sm-6" style="margin-top: 100px">
-					<img src="resources/images/Fam.jpg" class="img-responsive" style="display:inline" alt="Test">
-				</div>
-				<div class="col-sm-6"style="margin-top: 100px">
-					<h3 class="margin">Passions</h3>			
-					<p>
-						My life long passion is martial arts.
-					</p>
-				</div>
-			</div>
-		</div>
 
-		<!-- Overview section for projects -->
-		<div id="projects" class="container-fluid text-center">
-			<h2 class="margin">Projects</h2>
-			<div id="projects-carousel" class="carousel slide" data-ride="carousel" style="margin-top: 50px">
-				<!-- Carousel item indicators -->
-				<ol class="carousel-indicators">
-					<li data-target="projects-carousel" data-slide-to="0" class="active"></li>
-					<li data-target="projects-carousel" data-slide-to="1"></li>
-					<li data-target="projects-carousel" data-slide-to="2"></li>					
-				</ol>
-				<!-- Carousel items -->
-				<div class="carousel-inner" role="listbox">
-					<div class="item active">
-						<img class="d-block img-fluid" src="./resources/images/temple.jpg" alt="AvocadoBot">
-						<div class="carousel-caption d-none d-md-block">
-							<h2>AvocadoBot</h2>
-							<p>A clean, multi-purpose Discord bot written in Java 8.</p>
+			<!-- Overview section for projects -->
+			<div id="projects" class="text-center">
+				<h2 class="margin">Projects</h2>
+				<div id="projects-carousel" class="carousel slide" data-ride="carousel" style="margin-top: 50px">
+					<!-- Carousel item indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="projects-carousel" data-slide-to="0" class="active"></li>
+						<li data-target="projects-carousel" data-slide-to="1"></li>
+						<li data-target="projects-carousel" data-slide-to="2"></li>					
+					</ol>
+					<!-- Carousel items -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img class="d-block img-fluid" src="./resources/images/temple.jpg" alt="AvocadoBot">
+							<div class="carousel-caption d-none d-md-block">
+								<h2>AvocadoBot</h2>
+								<p>A clean, multi-purpose Discord bot written in Java 8.</p>
+							</div>
+						</div>
+						<div class="item">
+							<img class="d-block img-fluid" src="./resources/images/stairs.jpg" alt="Co-Op Swift">
+							<div class="carousel-caption d-none d-md-block">
+								<h2>Co-Op Swift</h2>
+								<p>Project management tool for Agile software development.</p>
+							</div>
+						</div>
+						<div class="item">
+							<img class="d-block img-fluid" src="./resources/images/tree.jpg" alt="ARChess">
+							<div class="carousel-caption d-none d-md-block">
+								<h2>ARChess</h2>
+								<p>Augmented reality web application for learning chess.</p>
+							</div>
 						</div>
 					</div>
-					<div class="item">
-						<img class="d-block img-fluid" src="./resources/images/stairs.jpg" alt="Co-Op Swift">
-						<div class="carousel-caption d-none d-md-block">
-							<h2>Co-Op Swift</h2>
-							<p>Project management tool for Agile software development.</p>
-						</div>
-					</div>
-					<div class="item">
-						<img class="d-block img-fluid" src="./resources/images/tree.jpg" alt="ARChess">
-						<div class="carousel-caption d-none d-md-block">
-							<h2>ARChess</h2>
-							<p>Augmented reality web application for learning chess.</p>
-						</div>
-					</div>
+					<!-- Carousel navigation -->
+					<a class="left carousel-control" data-slide="prev" href="#projects-carousel"><span class="icon-prev"></span></a>
+					<a class="right carousel-control" data-slide="next" href="#projects-carousel"><span class="icon-next"></span></a>
 				</div>
-				<!-- Carousel navigation -->
-				<a class="left carousel-control" data-slide="prev" href="#projects-carousel"><span class="icon-prev"></span></a>
-				<a class="right carousel-control" data-slide="next" href="#projects-carousel"><span class="icon-next"></span></a>
 			</div>
 		</div>
 			
@@ -134,7 +116,7 @@
 	</body>
 
 	<!-- Page footer where contact information and social media links are kept -->
-	<footer id="contact-info" class="container-fluid bg-blackgray text-center">
+	<footer id="contact-info" class="contact-container bg-blackgray text-center">
 		<p>Connect with me.</p>
 		<a href="https://www.linkedin.com/in/ddoyle2017/" class="fa fa-linkedin"></a>
 		<a href="https://github.com/ddoyle2017" class="fa fa-github"></a>
