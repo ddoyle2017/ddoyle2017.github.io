@@ -49,7 +49,6 @@ p {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0,0,0);
 }
-
 .carousel-inner > .item > img {
     height : 80vh;
     width : 100%;
