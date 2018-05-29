@@ -16,6 +16,10 @@ p {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
 }
+.skills-header {
+    color: whitesmoke;
+    padding-bottom: 0.9em;
+}
 :focus {
     outline: 0;
 }
@@ -23,7 +27,7 @@ p {
 
 /* Containers */
 .my-jumbotron {
-    background-image: url("../images/workspace_dark.jpg");
+    background-image: url("../images/workspace.jpg");
     background-size: cover; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -43,7 +47,7 @@ p {
     padding-bottom: 5vh;
 }
 .skills-container {
-    background-image: url("../images/desk2.jpeg");
+    background-image: url("../images/desk.jpeg");
     background-size: cover; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
