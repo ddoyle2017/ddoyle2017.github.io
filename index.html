@@ -42,22 +42,44 @@
 
 		<!-- Introduction section -->
 		<div id="intro" class="jumbotron vertical-center my-jumbotron">
-			<h1>Daniel Doyle • Software Engineer</h1>
+			<h1 style="padding-left: 1vw;">Daniel Doyle • Software Engineer</h1>
 		</div> 
 
 		<!-- About Me section -->
 		<div class="content-container bg-white">
 			<div id="about-me" class="text-left">
 				<h2 class="margin">Who Am I?</h2>
+				<!-- Catchy lede sentence -->
 				<p>
-					Mechanical engineering student turned software developer. As both an avid consumer and developer of software, I have a keen eye for software quality in 
-					both usage and design.<br /><br />
-					Having worked on projects ranging from designing robots, to application development, to desktop deployments, I have a wealth of experience in programming,
-					working in both Agile &amp; Waterfall environments, as well as quality assurance. Always eager to learn, I'm ready to empty my cup and make an impact at the 
-					workplace, while improving each step of the way.
+					My name is Daniel Doyle. Stirred by strong iced coffee, hard workouts on the mats, and interesting engineering problems, I'm a software developer
+					with a perchant for tackling challenging problems.
 				</p>
-				<img src="resources/images/KPiB.jpg" class="img-responsive" style="display:inline" alt="Test">
-				<h2 class="margin">Community Involvement</h2>
+				<!-- Motivations for becoming an engineer -->
+				<p>
+					Always the kid that would take apart VCRs at home and try putting them together again to see how they ticked, the world of engineering 
+					captivated my imagination. Futurists like Nikolai Tesla, who dreamt of bettering the world around them using science and engineering, inspired me
+					to pursue my degree and find a way to make a meaningful impact on the lives of those around me.
+				</p>
+				<img src="resources/images/temp.jpg" class="img-responsive" style="display:inline" alt="Personal Picture">
+				<!-- Education and course work -->
+				<p>
+					Originally a Mechnical Engineering student at the University of Illinois at Chicago, I found a passion for programming during my senior year when I
+					took my first Computer Science course, <em>CS 109: C++ Programming For Engineers</em>. What I loved about programming was the hands-on nature of 
+					building software, seeing code that you actually write come to life was something I found very gratifying. That class inspired me to stay in school 
+					and change my major. A year later I graduated with a B.S. in Computer Science, concentration in Software Engineering.
+				</p>
+				<p>My course work was focused on topics such as: </p>
+				<ul style="font-size: 17px; padding-bottom: 20px;">
+					<li>Object Oriented Programming</li>
+					<li>Relational Database Design &amp; Implementation</li>
+					<li>Software Engineering &amp; Design</li>
+					<li>Data Structures &amp; Algorithms</li>
+					<li>Mobile Development</li>
+				</ul>
+				<!-- Skills -->
+				<h2>Skills</h2>
+				<img src="resources/images/skills.svg" class="img-responsive" style="display:inline" alt="Skills Ranking">
+				<h2 class="margin" style="padding-top: 20px">Community Involvement</h2>
 				<p>
 					Throughout my college career, I've been active in a number of organizations.
 				</p>
@@ -67,45 +89,44 @@
 					My life long passion is martial arts.
 				</p>
 			</div>
-
-			<!-- Overview section for projects -->
-			<div id="projects" class="text-center">
-				<h2 class="margin">Projects</h2>
-				<div id="projects-carousel" class="carousel slide" data-ride="carousel" style="margin-top: 50px">
-					<!-- Carousel item indicators -->
-					<ol class="carousel-indicators">
-						<li data-target="projects-carousel" data-slide-to="0" class="active"></li>
-						<li data-target="projects-carousel" data-slide-to="1"></li>
-						<li data-target="projects-carousel" data-slide-to="2"></li>					
-					</ol>
-					<!-- Carousel items -->
-					<div class="carousel-inner" role="listbox">
-						<div class="item active">
-							<img class="d-block img-fluid" src="./resources/images/temple.jpg" alt="AvocadoBot">
-							<div class="carousel-caption d-none d-md-block">
-								<h2>AvocadoBot</h2>
-								<p>A clean, multi-purpose Discord bot written in Java 8.</p>
-							</div>
-						</div>
-						<div class="item">
-							<img class="d-block img-fluid" src="./resources/images/stairs.jpg" alt="Co-Op Swift">
-							<div class="carousel-caption d-none d-md-block">
-								<h2>Co-Op Swift</h2>
-								<p>Project management tool for Agile software development.</p>
-							</div>
-						</div>
-						<div class="item">
-							<img class="d-block img-fluid" src="./resources/images/tree.jpg" alt="ARChess">
-							<div class="carousel-caption d-none d-md-block">
-								<h2>ARChess</h2>
-								<p>Augmented reality web application for learning chess.</p>
-							</div>
+		</div>
+		<!-- Overview section for projects -->
+		<div id="projects" class="projects-container text-center">
+			<h2 class="margin">Projects</h2>
+			<div id="projects-carousel" class="carousel slide" data-ride="carousel" style="margin-top: 50px">
+				<!-- Carousel item indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="projects-carousel" data-slide-to="0" class="active"></li>
+					<li data-target="projects-carousel" data-slide-to="1"></li>
+					<li data-target="projects-carousel" data-slide-to="2"></li>					
+				</ol>
+				<!-- Carousel items -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img class="d-block img-fluid" src="./resources/images/temple.jpg" alt="AvocadoBot">
+						<div class="carousel-caption d-none d-md-block">
+							<h2>AvocadoBot</h2>
+							<p>A clean, multi-purpose Discord bot written in Java 8.</p>
 						</div>
 					</div>
-					<!-- Carousel navigation -->
-					<a class="left carousel-control" data-slide="prev" href="#projects-carousel"><span class="icon-prev"></span></a>
-					<a class="right carousel-control" data-slide="next" href="#projects-carousel"><span class="icon-next"></span></a>
+					<div class="item">
+						<img class="d-block img-fluid" src="./resources/images/stairs.jpg" alt="Co-Op Swift">
+						<div class="carousel-caption d-none d-md-block">
+							<h2>Co-Op Swift</h2>
+							<p>Project management tool for Agile software development.</p>
+						</div>
+					</div>
+					<div class="item">
+						<img class="d-block img-fluid" src="./resources/images/tree.jpg" alt="ARChess">
+						<div class="carousel-caption d-none d-md-block">
+							<h2>ARChess</h2>
+							<p>Augmented reality web application for learning chess.</p>
+						</div>
+					</div>
 				</div>
+				<!-- Carousel navigation -->
+				<a class="left carousel-control" data-slide="prev" href="#projects-carousel"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#projects-carousel"><span class="icon-next"></span></a>
 			</div>
 		</div>
 			

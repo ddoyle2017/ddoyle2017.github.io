@@ -4,15 +4,25 @@ body {
 }
 h2 {
     font-weight: bold;
+    padding-bottom: 10px;
 }
 p {
     display: block;
     opacity: 0.9;
-    font-size: 16px;
+    font-size: 17px;
+    padding-bottom: 10px;
     -webkit-margin-before: 1em;
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
+}
+/* ul {
+    font-size: 17px;
+    padding-bottom: 20px;
+} */
+img-responsive {
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 /* Containers */
@@ -31,10 +41,17 @@ p {
     height: auto;
     position: relative;
     vertical-align: baseline;
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
     padding-top: 5vh;
     padding-bottom: 5vh;
+}
+.projects-container {
+    position: relative;
+    vertical-align: baseline;
+    max-width: 1400px;
+    margin: auto;
+    padding-bottom: 10vh;
 }
 .contact-container {
     height: auto;
