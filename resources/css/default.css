@@ -10,16 +10,12 @@ p {
     display: block;
     opacity: 0.9;
     font-size: 17px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     -webkit-margin-before: 1em;
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
 }
-/* ul {
-    font-size: 17px;
-    padding-bottom: 20px;
-} */
 img-responsive {
     padding-top: 10px;
     padding-bottom: 20px;
@@ -58,8 +54,8 @@ img-responsive {
     position: relative;
     vertical-align: baseline;
     box-sizing: border-box;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
 }
 
 /* Image Styles */
