@@ -20,6 +20,7 @@ $('a[href*="#"]').not('[href="#"]').not('[href="#0"]').not('[href="#projects-car
                     $target.attr('tabindex','-1');
                     $target.focus();
                 };
+                return false;
             });
         }
     }
