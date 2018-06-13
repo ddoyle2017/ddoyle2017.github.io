@@ -24,8 +24,6 @@ p {
     outline: 0;
 }
 
-
-/* Containers */
 .my-jumbotron {
     background-image: url("../images/workspace.jpg");
     background-size: cover; 
@@ -54,13 +52,6 @@ p {
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
 }
-.projects-container {
-    position: relative;
-    vertical-align: baseline;
-    max-width: 1400px;
-    margin: auto;
-    padding-bottom: 10vh;
-}
 .contact-container {
     height: auto;
     position: relative;
@@ -69,18 +60,6 @@ p {
     padding-top: 3vh;
     padding-bottom: 3vh;
 }
-
-/* Carousel */
-.projects-carousel {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0,0,0);
-}
-.carousel-inner > .item > img {
-    height : 80vh;
-    width : 100%;
-    text-align: center;
-}
-
 
 /* Color Schemes */
 .bg-white {
