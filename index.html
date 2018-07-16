@@ -5,14 +5,13 @@
 
 		<meta charset="utf-8">
 		<meta name="author" content="Daniel Doyle">
-		<meta name="description" content="Personal website for showcasing my portfolio, resume, and contact information">
+		<meta name="description" content="Daniel Doyle's personal website for showcasing programming portfolio, resume, and contact information">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="shortcut icon" href="./resources/images/favicon.ico?" type="image/x-icon">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway'>
-		<link rel="stylesheet" href="./resources/css/main.css" type="text/css">
+		<link rel="stylesheet" href="./resources/css/styles.css" type="text/css">
 	</head>
 
 	<body>
@@ -20,27 +19,151 @@
 		<!-- Introduction section -->
 		<header>
 			<h1>Daniel Doyle</h1>
-			<p>Software Engineer</p>
+			<p>New Grad | Software Engineer</p>
 		</header> 
 
 		<!-- About Me section -->
 		<section id="about-me">
-			<h2>About Me</h2>
-			<hr>
+			<div class="about-me-wrapper">
+				<div class="about-me-header">
+					<h2 class="section-header">About Me</h2>
+					<hr class="small">
+				</div>
+				<div class="about-me-body">
+					<p>
+						Hi, I'm Doyle. I'm a new graduate from the University of Illinois at Chicago with a B.S. in Computer Science. I am currently working as a Software 
+						Test Engineer consultant, writing C# code and doing QA work, for a major third party global logistics company in the heart of Downtown Chicago. 
+						Originally a Mechnical Engineering student for almost 4 years, I found a love for programming late in my academic career and have been writing code 
+						ever since. I'm currently focus on backend development, but am open to explore any and all areas of computer science and software development.
+					</p>
+				</div>
+				<div class = "resume-download">
+					<a href="resources/resume.pdf" target="_blank">Resume</a>
+				</div>
+			</div>
 		</section>
 
-		<!-- Skills & Experience-->	
-		<section id="skills-experience">
-			<h2>Skills &amp; Experience</h2>
-			<hr>
+		<!-- Skills -->	
+		<section id="skills">
+			<h2 class="section-header">Skills</h2>
+			<hr class="small">
+			<div class="skills-grid">
+				<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<i class="fas fa-code fa-4x"></i>
+						<p>C#</p>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<i class="fab fa-java fa-4x"></i>
+						<p>Java</p>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<i class="fab fa-linux fa-4x"></i>
+						<p>Linux</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<i class="fab fa-html5 fa-4x"></i>
+						<p>HTML5</p>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<i class="fab fa-css3 fa-4x"></i>
+						<p>CSS3</p>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<i class="fab fa-js-square fa-4x"></i>
+						<p>JavaScript</p>
+					</div>
+				</div>
+			</div>
 		</section>
 
 		<!-- Projects -->
 		<section id="projects">
-			<h2>Projects</h2>
-			<hr>
+			<h2 class="section-header"> Projects</h2>
+			<hr class="small">
+			<div class="project-items-wrap">
+				<div class="project-item" id="AvocadoBot">
+					<div class="project-item-left">
+						<div id="image-avocadobot" class="project-img"></div>
+					</div>
+					<div class="project-item-right">
+						<div class="project-item-description">
+							<h3 class="project-item-title">AvocadoBot</h3>
+							<p class="project-item-text">
+								AvocadoBot is a Discord chatbot written in Java. The bot features a music streaming service via YouTube, and integration with Imgur for 
+								online image searching. The aim of this project is to create a streamlined, all-in-one tool for any Discord guild. Currently still in 
+								development, with many new features on the way!
+							</p>
+							<span class="tag">Java</span>
+							<span class="tag">Gradle</span>
+							<span class="tag">AWS EC2</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="project-item" id="Co-Op-Swift">
+					<div class="project-item-left">
+						<div id="image-coop-swift" class="project-img"></div>
+					</div>
+					<div class="project-item-right">
+						<div class="project-item-description">
+							<h3 class="project-item-title">Co-Op Swift</h3>
+							<p class="project-item-text">
+								Co-Op Swift is a Windows Forms Agile software development project management tool written with C#, SQL Server, and .NET. The project was 
+								created for a graduate level software engineering class, in a team of 4 engineers. User stories, tasks, team roles, etc. can all be created 
+								and managed. During the semester, I designed and created the SQL database used for the software, acted as the Scrum master, and performed 
+								code reviews and refactoring for the team.
+							</p>
+							<span class="tag">C#</span>
+							<span class="tag">SQL Server</span>
+							<span class="tag">Azure</span>
+							<span class="tag">.NET</span>
+						</div>
+					</div>
+				</div>
+				<div class="project-item" id="ARChess">
+					<div class="project-item-left">
+						<div id="image-archess" class="project-img"></div>
+					</div>
+					<div class="project-item-right">
+						<div class="project-item-description">
+							<h3 class="project-item-title">ARChess</h3>
+							<p class="project-item-text">
+								ARChess is an IoT device and web application created for a graduate level Human Augmentics research class, with a team of 7 engineers. The 
+								aim of the device is to improve skill development in chess using augmented reality. A custom chess board was fabricated to capture the board 
+								state of the game, then that information is fed to an Arduino microcontroller which sends the data to the web application. A chess engine 
+								then calculates the player's next best move and then visualizes the strategic information in real-time via an augmented reality webcam
+								overlay.
+							</p>
+							<span class="tag">JavaScript</span>
+							<span class="tag">Node.js</span>
+							<span class="tag">Awe.js</span>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
 			
+		<section id="contact">
+			<div class="contact-wrap">
+				<h2 class="section-header">Connect With Me</h2>
+				<hr class="small">
+				<div class="social-links">
+					<a class="link-linkedin" href="https://www.linkedin.com/in/ddoyle2017/" target="_blank">
+						<i class="fab fa-linkedin fa-3x"></i>
+					</a>
+					<a class="link-github" href="https://github.com/ddoyle2017" target="_blank">
+						<i class="fab fa-github fa-3x"></i>
+					</a>
+					<a class="link-email" href="mailto:danieldoyle2008@gmail.com" target="_blank">
+						<i class="fas fa-envelope fa-3x"></i>
+					</a>
+				</div>
+			</div>
+
+		</section>
 		<!-- JavaScript Stuff loads here, after the browser reads the HTML -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
