@@ -1,0 +1,47 @@
+section#contact {
+	margin-top: 80px;
+	padding: 50px 0;
+	background-color: white;
+	border-top: 1px solid $gray-border;
+
+	.contact-wrapper {
+		width: 60%;
+		margin: 0 auto;
+		text-align: center;
+	}
+}
+
+.social-links {
+	font-size: 48px;
+	
+	a.link {
+		padding-left: 15px;
+		padding-right: 15px;
+		color: #333;
+
+		&:hover {
+			color: #333;
+			text-decoration: none;
+		}
+
+		&:first-child {
+			padding-left: 0;
+		}
+
+		&:last-child {
+			padding-right: 0;
+		}
+
+		&.email {
+			color: $blue;
+		}
+
+		&.linkedin {
+			color: #0077B5;
+		}
+	}
+
+	@include media-md {
+		text-align: center;
+	}
+}

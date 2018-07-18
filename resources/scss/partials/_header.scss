@@ -1,0 +1,44 @@
+$name-size: 72px;
+$subtitle-size: 24px;
+$stripe-height: 160px;
+$rotation: -6deg;
+
+header {
+	width: 100%;
+	position: relative;
+	height: calc(3 * #{$stripe-height});
+	background-color: #fff;
+
+	@include stripe-styles(-100px, $blue, $purple, $rotation);
+
+	.header-text {
+		z-index: 2;
+		position: relative;
+		padding-top: 160px;
+		padding-left: 10%;
+
+		h1.header-name {
+			margin-top: 0;
+			font-size: $name-size;
+			color: white;
+		}
+
+		p.header-subtitle {
+			font-size: $subtitle-size;
+			color: #DADADA;
+			font-weight: 300;
+		}
+
+		@include media-md {
+			& {
+				padding-top: 100px;
+				padding-left: 15px;
+
+				h1.header-name {
+					font-size: 60px;
+				}
+			}
+		}
+	}
+	
+}

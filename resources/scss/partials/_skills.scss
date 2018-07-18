@@ -1,0 +1,19 @@
+section#skills {
+    margin-top: 3em;
+    position: relative;
+
+    .skills-wrapper {
+        text-align: center;
+        margin: 0 auto;
+        float: none;
+
+        .row {
+            padding-bottom: 3em;
+            
+            .skill > p {
+                padding-top: 5px;
+                font-size: 18px;
+            }
+        }
+    }
+}

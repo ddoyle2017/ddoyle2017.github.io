@@ -1,0 +1,52 @@
+section#about-me {
+	padding-top: 3em;
+	padding-bottom: 5em;
+	background-color: #fff;
+	border-bottom: 1px solid $gray-border;
+
+	.about-me-wrapper {
+		width: 90%;
+		margin: 0 auto;
+		display: table;
+
+		.about-me-header {
+			width: 40%;
+			text-align: center;
+			display: inline-block;
+			vertical-align: top;
+
+			@include media-md {
+				width: 100%;
+			}
+		}
+
+		.about-me-body {
+			width: 60%;
+			display: inline-block;
+			vertical-align: top;
+
+			color: $darkgray;
+			font-size: 16px;
+			line-height: 24px;
+			font-weight: 400;
+
+			@include media-md {
+				width: 100%;
+			}
+
+			p {
+				width: 80%;
+
+				@include media-md {
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	@include media-md {
+		.resume-download {
+			text-align: center;
+		}
+	}
+}

@@ -1,5 +1,5 @@
-$blue: #487dff;
-$purple: #7280fd;
+$blue: #242582;
+$purple: #2F2FA2;
 $gray: #ecf0f1;
 $darkgray: #757575;
 $gray-border: #c5c8c9;
@@ -36,3 +36,12 @@ h2.section-header {
 	margin-top: 0;
 	margin-bottom: 0;
 }
+
+@import "partials/mixins";
+@import "partials/header";
+@import "partials/aboutme";
+@import "partials/resume";
+@import "partials/skills";
+@import "partials/project";
+@import "partials/project-items";
+@import "partials/contact";

@@ -1,0 +1,31 @@
+section#projects {
+	margin-top: 8em;
+	position: relative;
+
+	@include stripe-styles(0, $blue, $purple, 6deg);
+
+	.projects-wrapper {
+		width: 100%;
+		text-align: center;
+		position: relative;
+		z-index: 5;
+		padding-top: 3em;
+
+		h2.section-header {
+			color: $gray;
+		}
+
+		hr.small {
+			border-color: $gray;
+		}
+
+		.project-items-wrapper {
+			width: 80%;
+			margin: 0 auto;
+
+			@include media-md {
+				width: 90%;
+			}
+		}
+	}
+}

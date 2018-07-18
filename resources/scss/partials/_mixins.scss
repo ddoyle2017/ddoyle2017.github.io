@@ -1,0 +1,65 @@
+$prefixes: (webkit, ms, moz);
+
+@mixin prefix($property, $value) {
+	@each $prefix in $prefixes {
+		#{'-' + $prefix + '-' + $property}: $value;
+	}
+
+	#{property}: value;
+}
+
+@mixin stripe-styles($top, $gradientFrom, $gradientTo, $rotation) {
+	.stripe-container {
+		z-index: 1;
+		position: absolute;
+		width: 120%;
+		margin-top: $top;
+		margin-left: -50px;
+		
+		.stripe {
+			left: 0;
+			right: 0;
+			height: $stripe-height;
+			@include prefix(transform, rotate($rotation));
+
+			&:nth-child(3n - 2) {
+				background-color: $purple;
+			}
+
+			&:nth-child(3n - 1) {
+				background-color: $blue;
+			}
+
+			&:nth-child(3n) {
+				background: linear-gradient(45deg, $gradientFrom, $gradientTo);
+			}
+		}
+	}
+}
+
+// bootstrap breakpoints
+$xs-width: 480px;
+$sm-width: 768px;
+$md-width: 992px;
+$lg-width: 1200px;
+
+@mixin media-xs {
+	@media (max-width: #{$xs-width}) {
+		@content
+	}
+}
+@mixin media-sm {
+	@media (max-width: #{$sm-width}) {
+		@content
+	}
+}
+@mixin media-md {
+	@media (max-width: #{$md-width}) {
+		@content
+	}
+}
+@mixin media-lg {
+	@media (max-width: #{$lg-width}) {
+		@content
+	}
+}

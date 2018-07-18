@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300; }
 
 hr {
-  border-top: 1px solid #487dff; }
+  border-top: 1px solid #242582; }
   hr.small {
     width: 50px;
     margin-top: 10px; }
@@ -21,3 +21,232 @@ h2.section-header {
   font-size: 32px;
   margin-top: 0;
   margin-bottom: 0; }
+
+header {
+  width: 100%;
+  position: relative;
+  height: calc(3 * 160px);
+  background-color: #fff; }
+  header .stripe-container {
+    z-index: 1;
+    position: absolute;
+    width: 120%;
+    margin-top: -100px;
+    margin-left: -50px; }
+    header .stripe-container .stripe {
+      left: 0;
+      right: 0;
+      height: 160px;
+      -webkit-transform: rotate(-6deg);
+      -ms-transform: rotate(-6deg);
+      -moz-transform: rotate(-6deg);
+      property: value; }
+      header .stripe-container .stripe:nth-child(3n - 2) {
+        background-color: #2F2FA2; }
+      header .stripe-container .stripe:nth-child(3n - 1) {
+        background-color: #242582; }
+      header .stripe-container .stripe:nth-child(3n) {
+        background: linear-gradient(45deg, #242582, #2F2FA2); }
+  header .header-text {
+    z-index: 2;
+    position: relative;
+    padding-top: 160px;
+    padding-left: 10%; }
+    header .header-text h1.header-name {
+      margin-top: 0;
+      font-size: 72px;
+      color: white; }
+    header .header-text p.header-subtitle {
+      font-size: 24px;
+      color: #DADADA;
+      font-weight: 300; }
+    @media (max-width: 992px) {
+      header .header-text {
+        padding-top: 100px;
+        padding-left: 15px; }
+        header .header-text h1.header-name {
+          font-size: 60px; } }
+
+section#about-me {
+  padding-top: 3em;
+  padding-bottom: 5em;
+  background-color: #fff;
+  border-bottom: 1px solid #c5c8c9; }
+  section#about-me .about-me-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    display: table; }
+    section#about-me .about-me-wrapper .about-me-header {
+      width: 40%;
+      text-align: center;
+      display: inline-block;
+      vertical-align: top; }
+      @media (max-width: 992px) {
+        section#about-me .about-me-wrapper .about-me-header {
+          width: 100%; } }
+    section#about-me .about-me-wrapper .about-me-body {
+      width: 60%;
+      display: inline-block;
+      vertical-align: top;
+      color: #757575;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 400; }
+      @media (max-width: 992px) {
+        section#about-me .about-me-wrapper .about-me-body {
+          width: 100%; } }
+      section#about-me .about-me-wrapper .about-me-body p {
+        width: 80%; }
+        @media (max-width: 992px) {
+          section#about-me .about-me-wrapper .about-me-body p {
+            width: 100%; } }
+  @media (max-width: 992px) {
+    section#about-me .resume-download {
+      text-align: center; } }
+
+.resume-download {
+  margin-top: 20px;
+  padding: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
+  background-color: #242582;
+  display: inline-block; }
+  .resume-download a {
+    color: #ecf0f1; }
+
+section#skills {
+  margin-top: 3em;
+  position: relative; }
+  section#skills .skills-wrapper {
+    text-align: center;
+    margin: 0 auto;
+    float: none; }
+    section#skills .skills-wrapper .row {
+      padding-bottom: 3em; }
+      section#skills .skills-wrapper .row .skill > p {
+        padding-top: 5px;
+        font-size: 18px; }
+
+section#projects {
+  margin-top: 8em;
+  position: relative; }
+  section#projects .stripe-container {
+    z-index: 1;
+    position: absolute;
+    width: 120%;
+    margin-top: 0;
+    margin-left: -50px; }
+    section#projects .stripe-container .stripe {
+      left: 0;
+      right: 0;
+      height: 160px;
+      -webkit-transform: rotate(6deg);
+      -ms-transform: rotate(6deg);
+      -moz-transform: rotate(6deg);
+      property: value; }
+      section#projects .stripe-container .stripe:nth-child(3n - 2) {
+        background-color: #2F2FA2; }
+      section#projects .stripe-container .stripe:nth-child(3n - 1) {
+        background-color: #242582; }
+      section#projects .stripe-container .stripe:nth-child(3n) {
+        background: linear-gradient(45deg, #242582, #2F2FA2); }
+  section#projects .projects-wrapper {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    z-index: 5;
+    padding-top: 3em; }
+    section#projects .projects-wrapper h2.section-header {
+      color: #ecf0f1; }
+    section#projects .projects-wrapper hr.small {
+      border-color: #ecf0f1; }
+    section#projects .projects-wrapper .project-items-wrapper {
+      width: 80%;
+      margin: 0 auto; }
+      @media (max-width: 992px) {
+        section#projects .projects-wrapper .project-items-wrapper {
+          width: 90%; } }
+
+.project-item {
+  display: table;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
+  margin-top: 25px; }
+  .project-item > * {
+    display: table-cell;
+    vertical-align: top;
+    position: relative; }
+  .project-item .project-item-left {
+    width: 250px; }
+  .project-item .project-item-right {
+    width: calc(100% - 250px); }
+  .project-item .image-filter {
+    position: absolute;
+    background-color: rgba(171, 171, 171, 0.33);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 5; }
+  .project-item .project-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover; }
+  .project-item .project-item-description {
+    width: 100%;
+    min-height: 250px;
+    background-color: white;
+    padding: 25px 15px;
+    text-align: left; }
+    .project-item .project-item-description h3.project-item-title {
+      margin-top: 0; }
+    .project-item .project-item-description p.project-item-text {
+      width: 100%;
+      color: #757575;
+      font-weight: 400;
+      margin-top: 10px; }
+  @media (max-width: 992px) {
+    .project-item .project-item-left {
+      width: 30%; }
+    .project-item .project-item-right {
+      width: 100%; } }
+
+#image-avocadobot {
+  background-image: url("../../images/discord.jpg"); }
+
+#image-coop-swift {
+  background-image: url("../../images/desk.jpeg"); }
+
+#image-archess {
+  background-image: url("../../images/chess.jpeg");
+  background-position: center center; }
+
+section#contact {
+  margin-top: 80px;
+  padding: 50px 0;
+  background-color: white;
+  border-top: 1px solid #c5c8c9; }
+  section#contact .contact-wrapper {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center; }
+
+.social-links {
+  font-size: 48px; }
+  .social-links a.link {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #333; }
+    .social-links a.link:hover {
+      color: #333;
+      text-decoration: none; }
+    .social-links a.link:first-child {
+      padding-left: 0; }
+    .social-links a.link:last-child {
+      padding-right: 0; }
+    .social-links a.link.email {
+      color: #242582; }
+    .social-links a.link.linkedin {
+      color: #0077B5; }
+  @media (max-width: 992px) {
+    .social-links {
+      text-align: center; } }
