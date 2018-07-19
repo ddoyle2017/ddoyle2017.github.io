@@ -2,7 +2,7 @@ section#projects {
 	margin-top: 8em;
 	position: relative;
 
-	@include stripe-styles(0, $blue, $purple, 6deg);
+	@include stripe-styles(0, $blue, $violet, 6deg);
 
 	.projects-wrapper {
 		width: 100%;

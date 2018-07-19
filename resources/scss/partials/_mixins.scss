@@ -23,7 +23,7 @@ $prefixes: (webkit, ms, moz);
 			@include prefix(transform, rotate($rotation));
 
 			&:nth-child(3n - 2) {
-				background-color: $purple;
+				background-color: $violet;
 			}
 
 			&:nth-child(3n - 1) {

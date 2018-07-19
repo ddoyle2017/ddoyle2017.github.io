@@ -106,7 +106,10 @@ section#about-me {
 
 .resume-download {
   margin-top: 20px;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
   background-color: #242582;
   display: inline-block; }

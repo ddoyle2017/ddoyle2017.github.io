@@ -9,7 +9,7 @@ header {
 	height: calc(3 * #{$stripe-height});
 	background-color: #fff;
 
-	@include stripe-styles(-100px, $blue, $purple, $rotation);
+	@include stripe-styles(-100px, $blue, $violet, $rotation);
 
 	.header-text {
 		z-index: 2;
