@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300; }
 
 hr {
-  border-top: 1px solid #242582; }
+  border-top: 2px solid #FF1493; }
   hr.small {
     width: 50px;
     margin-top: 10px; }
@@ -42,11 +42,11 @@ header {
       -moz-transform: rotate(-6deg);
       property: value; }
       header .stripe-container .stripe:nth-child(3n - 2) {
-        background-color: #2F2FA2; }
+        background: linear-gradient(135deg, #0d1457 0%, #214077 100%); }
       header .stripe-container .stripe:nth-child(3n - 1) {
-        background-color: #242582; }
+        background: linear-gradient(135deg, #0d1457 0%, #214077 100%); }
       header .stripe-container .stripe:nth-child(3n) {
-        background: linear-gradient(45deg, #242582, #2F2FA2); }
+        background: linear-gradient(135deg, #0d1457 0%, #214077 100%); }
   header .header-text {
     z-index: 2;
     position: relative;
@@ -118,6 +118,8 @@ section#about-me {
 
 section#skills {
   margin-top: 3em;
+  margin-left: 5em;
+  margin-right: 5em;
   position: relative; }
   section#skills .skills-wrapper {
     text-align: center;
@@ -147,11 +149,11 @@ section#projects {
       -moz-transform: rotate(6deg);
       property: value; }
       section#projects .stripe-container .stripe:nth-child(3n - 2) {
-        background-color: #2F2FA2; }
+        background: linear-gradient(135deg, #0d1457 0%, #214077 100%); }
       section#projects .stripe-container .stripe:nth-child(3n - 1) {
-        background-color: #242582; }
+        background: linear-gradient(135deg, #0d1457 0%, #214077 100%); }
       section#projects .stripe-container .stripe:nth-child(3n) {
-        background: linear-gradient(45deg, #242582, #2F2FA2); }
+        background: linear-gradient(135deg, #0d1457 0%, #214077 100%); }
   section#projects .projects-wrapper {
     width: 100%;
     text-align: center;
@@ -159,9 +161,9 @@ section#projects {
     z-index: 5;
     padding-top: 3em; }
     section#projects .projects-wrapper h2.section-header {
-      color: #ecf0f1; }
+      color: whitesmoke; }
     section#projects .projects-wrapper hr.small {
-      border-color: #ecf0f1; }
+      border-color: #FF1493; }
     section#projects .projects-wrapper .project-items-wrapper {
       width: 80%;
       margin: 0 auto; }

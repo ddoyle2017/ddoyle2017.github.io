@@ -15,7 +15,7 @@ $prefixes: (webkit, ms, moz);
 		width: 120%;
 		margin-top: $top;
 		margin-left: -50px;
-		
+
 		.stripe {
 			left: 0;
 			right: 0;
@@ -23,15 +23,15 @@ $prefixes: (webkit, ms, moz);
 			@include prefix(transform, rotate($rotation));
 
 			&:nth-child(3n - 2) {
-				background-color: $violet;
+				background: linear-gradient(135deg, #0d1457 0%,#214077 100%);
 			}
 
 			&:nth-child(3n - 1) {
-				background-color: $blue;
+				background: linear-gradient(135deg, #0d1457 0%,#214077 100%);
 			}
 
 			&:nth-child(3n) {
-				background: linear-gradient(45deg, $gradientFrom, $gradientTo);
+				background: linear-gradient(135deg, #0d1457 0%,#214077 100%);
 			}
 		}
 	}
