@@ -8,6 +8,11 @@ $prefixes: (webkit, ms, moz);
 	#{property}: value;
 }
 
+@mixin transition {
+	@include prefix(transition, all .3s ease-out);
+	transition: all .3s ease-out;
+}
+
 @mixin stripe-styles($top, $gradientFrom, $gradientTo, $rotation) {
 	.stripe-container {
 		z-index: 1;
