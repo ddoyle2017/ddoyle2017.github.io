@@ -10,7 +10,7 @@ $prefixes: (webkit, ms, moz);
 
 @mixin transition {
 	@include prefix(transition, all .3s ease-out);
-	transition: all .3s ease-out;
+	transition: all .2s ease-out;
 }
 
 @mixin stripe-styles($top, $gradientFrom, $gradientTo, $rotation) {
